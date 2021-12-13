@@ -1,0 +1,38 @@
+<html>
+<head>
+<body>
+<body style="background-color: blanchedalmond;>">
+<h1><u>Google Forms анкета ,,Интересни факти за природата''</u></h1>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpTq2eMXoFA-zM2hd1-LOkxWPo6BtQE4Nqkg4JQn9ipJbWAw/viewform" width="640" height="900" frameborder="0" marginheight="0" marginwidth="0">
+</iframe>
+<h2><a href="htmlpanda.html"> Назад </a></h2>
+
+
+</body>
+</head>
+</html>
+
+<html>
+<body>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "koalazajs.jpg"
+  } else {
+    pic = "Grosser_Panda.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="koalazajs.jpg" width="200" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Панда</button>
+<button type="button" onclick="light(0)">Коала</button>
+</p>
+
+</body>
+</html>
